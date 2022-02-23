@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="SalesFiveYearsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AllDetails2011">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="VisitPercent" Type="int" />
+          <Property Name="OrderCount" Type="int" />
+          <Property Name="MemberCount" Type="int" />
+        </EntityType>
+        <EntityType Name="AllDetails2012">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="VisitPercent" Type="int" />
+          <Property Name="OrderCount" Type="int" />
+          <Property Name="MemberCount" Type="int" />
+        </EntityType>
+        <EntityType Name="AllDetails2013">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="VisitPercent" Type="int" />
+          <Property Name="OrderCount" Type="int" />
+          <Property Name="MemberCount" Type="int" />
+        </EntityType>
+        <EntityType Name="AllDetails2014">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="VisitPercent" Type="int" />
+          <Property Name="OrderCount" Type="int" />
+          <Property Name="MemberCount" Type="int" />
+        </EntityType>
+        <EntityType Name="AllDetails2015">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="VisitPercent" Type="int" />
+          <Property Name="OrderCount" Type="int" />
+          <Property Name="MemberCount" Type="int" />
+        </EntityType>
+        <EntityType Name="CountryGenderSales2011">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Male" Type="int" />
+          <Property Name="Female" Type="int" />
+        </EntityType>
+        <EntityType Name="CountryGenderSales2012">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Male" Type="int" />
+          <Property Name="Female" Type="int" />
+        </EntityType>
+        <EntityType Name="CountryGenderSales2013">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Male" Type="int" />
+          <Property Name="Female" Type="int" />
+        </EntityType>
+        <EntityType Name="CountryGenderSales2014">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Male" Type="int" />
+          <Property Name="Female" Type="int" />
+        </EntityType>
+        <EntityType Name="CountryGenderSales2015">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Male" Type="int" />
+          <Property Name="Female" Type="int" />
+        </EntityType>
+        <EntityType Name="CountryPercentageSales2011">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="PercentSales" Type="int" />
+        </EntityType>
+        <EntityType Name="CountryPercentageSales2012">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="PercentSales" Type="int" />
+        </EntityType>
+        <EntityType Name="CountryPercentageSales2013">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="PercentSales" Type="int" />
+        </EntityType>
+        <EntityType Name="CountryPercentageSales2014">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="PercentSales" Type="int" />
+        </EntityType>
+        <EntityType Name="CountryPercentageSales2015">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="PercentSales" Type="int" />
+        </EntityType>
+        <EntityType Name="ProductCategorySales2011">
+          <Key>
+            <PropertyRef Name="Products" />
+          </Key>
+          <Property Name="Products" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="SalesPercent" Type="int" />
+        </EntityType>
+        <EntityType Name="ProductCategorySales2012">
+          <Key>
+            <PropertyRef Name="Products" />
+          </Key>
+          <Property Name="Products" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="SalesPercent" Type="int" />
+        </EntityType>
+        <EntityType Name="ProductCategorySales2013">
+          <Key>
+            <PropertyRef Name="Products" />
+          </Key>
+          <Property Name="Products" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="SalesPercent" Type="int" />
+        </EntityType>
+        <EntityType Name="ProductCategorySales2014">
+          <Key>
+            <PropertyRef Name="Products" />
+          </Key>
+          <Property Name="Products" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="SalesPercent" Type="int" />
+        </EntityType>
+        <EntityType Name="ProductCategorySales2015">
+          <Key>
+            <PropertyRef Name="Products" />
+          </Key>
+          <Property Name="Products" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="SalesPercent" Type="int" />
+        </EntityType>
+        <EntityType Name="SelectAllMonthsYears">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Months" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Y2011" Type="int" />
+          <Property Name="Y2012" Type="int" />
+          <Property Name="Y2013" Type="int" />
+          <Property Name="Y2014" Type="int" />
+          <Property Name="Y2015" Type="int" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="TotalYearSales">
+          <Key>
+            <PropertyRef Name="Years" />
+          </Key>
+          <Property Name="Years" Type="int" Nullable="false" />
+          <Property Name="TotalSales" Type="bigint" />
+        </EntityType>
+        <EntityContainer Name="SalesFiveYearsModelStoreContainer">
+          <EntitySet Name="AllDetails2011" EntityType="Self.AllDetails2011" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AllDetails2012" EntityType="Self.AllDetails2012" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AllDetails2013" EntityType="Self.AllDetails2013" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AllDetails2014" EntityType="Self.AllDetails2014" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="AllDetails2015" EntityType="Self.AllDetails2015" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CountryGenderSales2011" EntityType="Self.CountryGenderSales2011" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CountryGenderSales2012" EntityType="Self.CountryGenderSales2012" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CountryGenderSales2013" EntityType="Self.CountryGenderSales2013" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CountryGenderSales2014" EntityType="Self.CountryGenderSales2014" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CountryGenderSales2015" EntityType="Self.CountryGenderSales2015" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CountryPercentageSales2011" EntityType="Self.CountryPercentageSales2011" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CountryPercentageSales2012" EntityType="Self.CountryPercentageSales2012" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CountryPercentageSales2013" EntityType="Self.CountryPercentageSales2013" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CountryPercentageSales2014" EntityType="Self.CountryPercentageSales2014" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="CountryPercentageSales2015" EntityType="Self.CountryPercentageSales2015" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProductCategorySales2011" EntityType="Self.ProductCategorySales2011" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProductCategorySales2012" EntityType="Self.ProductCategorySales2012" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProductCategorySales2013" EntityType="Self.ProductCategorySales2013" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProductCategorySales2014" EntityType="Self.ProductCategorySales2014" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ProductCategorySales2015" EntityType="Self.ProductCategorySales2015" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SelectAllMonthsYears" EntityType="Self.SelectAllMonthsYears" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TotalYearSales" EntityType="Self.TotalYearSales" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SalesFiveYearsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="AllDetails2011">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="VisitPercent" Type="Int32" />
+          <Property Name="OrderCount" Type="Int32" />
+          <Property Name="MemberCount" Type="Int32" />
+        </EntityType>
+        <EntityType Name="AllDetails2012">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="VisitPercent" Type="Int32" />
+          <Property Name="OrderCount" Type="Int32" />
+          <Property Name="MemberCount" Type="Int32" />
+        </EntityType>
+        <EntityType Name="AllDetails2013">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="VisitPercent" Type="Int32" />
+          <Property Name="OrderCount" Type="Int32" />
+          <Property Name="MemberCount" Type="Int32" />
+        </EntityType>
+        <EntityType Name="AllDetails2014">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="VisitPercent" Type="Int32" />
+          <Property Name="OrderCount" Type="Int32" />
+          <Property Name="MemberCount" Type="Int32" />
+        </EntityType>
+        <EntityType Name="AllDetails2015">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="VisitPercent" Type="Int32" />
+          <Property Name="OrderCount" Type="Int32" />
+          <Property Name="MemberCount" Type="Int32" />
+        </EntityType>
+        <EntityType Name="CountryGenderSales2011">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Male" Type="Int32" />
+          <Property Name="Female" Type="Int32" />
+        </EntityType>
+        <EntityType Name="CountryGenderSales2012">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Male" Type="Int32" />
+          <Property Name="Female" Type="Int32" />
+        </EntityType>
+        <EntityType Name="CountryGenderSales2013">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Male" Type="Int32" />
+          <Property Name="Female" Type="Int32" />
+        </EntityType>
+        <EntityType Name="CountryGenderSales2014">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Male" Type="Int32" />
+          <Property Name="Female" Type="Int32" />
+        </EntityType>
+        <EntityType Name="CountryGenderSales2015">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Male" Type="Int32" />
+          <Property Name="Female" Type="Int32" />
+        </EntityType>
+        <EntityType Name="CountryPercentageSales2011">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PercentSales" Type="Int32" />
+        </EntityType>
+        <EntityType Name="CountryPercentageSales2012">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PercentSales" Type="Int32" />
+        </EntityType>
+        <EntityType Name="CountryPercentageSales2013">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PercentSales" Type="Int32" />
+        </EntityType>
+        <EntityType Name="CountryPercentageSales2014">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PercentSales" Type="Int32" />
+        </EntityType>
+        <EntityType Name="CountryPercentageSales2015">
+          <Key>
+            <PropertyRef Name="Country" />
+          </Key>
+          <Property Name="Country" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PercentSales" Type="Int32" />
+        </EntityType>
+        <EntityType Name="ProductCategorySales2011">
+          <Key>
+            <PropertyRef Name="Products" />
+          </Key>
+          <Property Name="Products" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SalesPercent" Type="Int32" />
+        </EntityType>
+        <EntityType Name="ProductCategorySales2012">
+          <Key>
+            <PropertyRef Name="Products" />
+          </Key>
+          <Property Name="Products" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SalesPercent" Type="Int32" />
+        </EntityType>
+        <EntityType Name="ProductCategorySales2013">
+          <Key>
+            <PropertyRef Name="Products" />
+          </Key>
+          <Property Name="Products" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SalesPercent" Type="Int32" />
+        </EntityType>
+        <EntityType Name="ProductCategorySales2014">
+          <Key>
+            <PropertyRef Name="Products" />
+          </Key>
+          <Property Name="Products" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SalesPercent" Type="Int32" />
+        </EntityType>
+        <EntityType Name="ProductCategorySales2015">
+          <Key>
+            <PropertyRef Name="Products" />
+          </Key>
+          <Property Name="Products" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="SalesPercent" Type="Int32" />
+        </EntityType>
+        <EntityType Name="SelectAllMonthsYear">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Months" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Y2011" Type="Int32" />
+          <Property Name="Y2012" Type="Int32" />
+          <Property Name="Y2013" Type="Int32" />
+          <Property Name="Y2014" Type="Int32" />
+          <Property Name="Y2015" Type="Int32" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="TotalYearSale">
+          <Key>
+            <PropertyRef Name="Years" />
+          </Key>
+          <Property Name="Years" Type="Int32" Nullable="false" />
+          <Property Name="TotalSales" Type="Int64" />
+        </EntityType>
+        <EntityContainer Name="SalesFiveYearsEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AllDetails2011" EntityType="Self.AllDetails2011" />
+          <EntitySet Name="AllDetails2012" EntityType="Self.AllDetails2012" />
+          <EntitySet Name="AllDetails2013" EntityType="Self.AllDetails2013" />
+          <EntitySet Name="AllDetails2014" EntityType="Self.AllDetails2014" />
+          <EntitySet Name="AllDetails2015" EntityType="Self.AllDetails2015" />
+          <EntitySet Name="CountryGenderSales2011" EntityType="Self.CountryGenderSales2011" />
+          <EntitySet Name="CountryGenderSales2012" EntityType="Self.CountryGenderSales2012" />
+          <EntitySet Name="CountryGenderSales2013" EntityType="Self.CountryGenderSales2013" />
+          <EntitySet Name="CountryGenderSales2014" EntityType="Self.CountryGenderSales2014" />
+          <EntitySet Name="CountryGenderSales2015" EntityType="Self.CountryGenderSales2015" />
+          <EntitySet Name="CountryPercentageSales2011" EntityType="Self.CountryPercentageSales2011" />
+          <EntitySet Name="CountryPercentageSales2012" EntityType="Self.CountryPercentageSales2012" />
+          <EntitySet Name="CountryPercentageSales2013" EntityType="Self.CountryPercentageSales2013" />
+          <EntitySet Name="CountryPercentageSales2014" EntityType="Self.CountryPercentageSales2014" />
+          <EntitySet Name="CountryPercentageSales2015" EntityType="Self.CountryPercentageSales2015" />
+          <EntitySet Name="ProductCategorySales2011" EntityType="Self.ProductCategorySales2011" />
+          <EntitySet Name="ProductCategorySales2012" EntityType="Self.ProductCategorySales2012" />
+          <EntitySet Name="ProductCategorySales2013" EntityType="Self.ProductCategorySales2013" />
+          <EntitySet Name="ProductCategorySales2014" EntityType="Self.ProductCategorySales2014" />
+          <EntitySet Name="ProductCategorySales2015" EntityType="Self.ProductCategorySales2015" />
+          <EntitySet Name="SelectAllMonthsYears" EntityType="Self.SelectAllMonthsYear" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <EntitySet Name="TotalYearSales" EntityType="Self.TotalYearSale" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SalesFiveYearsModelStoreContainer" CdmEntityContainer="SalesFiveYearsEntities">
+          <EntitySetMapping Name="AllDetails2011">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.AllDetails2011">
+              <MappingFragment StoreEntitySet="AllDetails2011">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="VisitPercent" ColumnName="VisitPercent" />
+                <ScalarProperty Name="OrderCount" ColumnName="OrderCount" />
+                <ScalarProperty Name="MemberCount" ColumnName="MemberCount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AllDetails2012">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.AllDetails2012">
+              <MappingFragment StoreEntitySet="AllDetails2012">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="VisitPercent" ColumnName="VisitPercent" />
+                <ScalarProperty Name="OrderCount" ColumnName="OrderCount" />
+                <ScalarProperty Name="MemberCount" ColumnName="MemberCount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AllDetails2013">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.AllDetails2013">
+              <MappingFragment StoreEntitySet="AllDetails2013">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="VisitPercent" ColumnName="VisitPercent" />
+                <ScalarProperty Name="OrderCount" ColumnName="OrderCount" />
+                <ScalarProperty Name="MemberCount" ColumnName="MemberCount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AllDetails2014">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.AllDetails2014">
+              <MappingFragment StoreEntitySet="AllDetails2014">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="VisitPercent" ColumnName="VisitPercent" />
+                <ScalarProperty Name="OrderCount" ColumnName="OrderCount" />
+                <ScalarProperty Name="MemberCount" ColumnName="MemberCount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AllDetails2015">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.AllDetails2015">
+              <MappingFragment StoreEntitySet="AllDetails2015">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="VisitPercent" ColumnName="VisitPercent" />
+                <ScalarProperty Name="OrderCount" ColumnName="OrderCount" />
+                <ScalarProperty Name="MemberCount" ColumnName="MemberCount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CountryGenderSales2011">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.CountryGenderSales2011">
+              <MappingFragment StoreEntitySet="CountryGenderSales2011">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="Male" ColumnName="Male" />
+                <ScalarProperty Name="Female" ColumnName="Female" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CountryGenderSales2012">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.CountryGenderSales2012">
+              <MappingFragment StoreEntitySet="CountryGenderSales2012">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="Male" ColumnName="Male" />
+                <ScalarProperty Name="Female" ColumnName="Female" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CountryGenderSales2013">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.CountryGenderSales2013">
+              <MappingFragment StoreEntitySet="CountryGenderSales2013">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="Male" ColumnName="Male" />
+                <ScalarProperty Name="Female" ColumnName="Female" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CountryGenderSales2014">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.CountryGenderSales2014">
+              <MappingFragment StoreEntitySet="CountryGenderSales2014">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="Male" ColumnName="Male" />
+                <ScalarProperty Name="Female" ColumnName="Female" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CountryGenderSales2015">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.CountryGenderSales2015">
+              <MappingFragment StoreEntitySet="CountryGenderSales2015">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="Male" ColumnName="Male" />
+                <ScalarProperty Name="Female" ColumnName="Female" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CountryPercentageSales2011">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.CountryPercentageSales2011">
+              <MappingFragment StoreEntitySet="CountryPercentageSales2011">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="PercentSales" ColumnName="PercentSales" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CountryPercentageSales2012">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.CountryPercentageSales2012">
+              <MappingFragment StoreEntitySet="CountryPercentageSales2012">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="PercentSales" ColumnName="PercentSales" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CountryPercentageSales2013">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.CountryPercentageSales2013">
+              <MappingFragment StoreEntitySet="CountryPercentageSales2013">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="PercentSales" ColumnName="PercentSales" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CountryPercentageSales2014">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.CountryPercentageSales2014">
+              <MappingFragment StoreEntitySet="CountryPercentageSales2014">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="PercentSales" ColumnName="PercentSales" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CountryPercentageSales2015">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.CountryPercentageSales2015">
+              <MappingFragment StoreEntitySet="CountryPercentageSales2015">
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="PercentSales" ColumnName="PercentSales" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductCategorySales2011">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.ProductCategorySales2011">
+              <MappingFragment StoreEntitySet="ProductCategorySales2011">
+                <ScalarProperty Name="Products" ColumnName="Products" />
+                <ScalarProperty Name="SalesPercent" ColumnName="SalesPercent" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductCategorySales2012">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.ProductCategorySales2012">
+              <MappingFragment StoreEntitySet="ProductCategorySales2012">
+                <ScalarProperty Name="Products" ColumnName="Products" />
+                <ScalarProperty Name="SalesPercent" ColumnName="SalesPercent" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductCategorySales2013">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.ProductCategorySales2013">
+              <MappingFragment StoreEntitySet="ProductCategorySales2013">
+                <ScalarProperty Name="Products" ColumnName="Products" />
+                <ScalarProperty Name="SalesPercent" ColumnName="SalesPercent" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductCategorySales2014">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.ProductCategorySales2014">
+              <MappingFragment StoreEntitySet="ProductCategorySales2014">
+                <ScalarProperty Name="Products" ColumnName="Products" />
+                <ScalarProperty Name="SalesPercent" ColumnName="SalesPercent" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ProductCategorySales2015">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.ProductCategorySales2015">
+              <MappingFragment StoreEntitySet="ProductCategorySales2015">
+                <ScalarProperty Name="Products" ColumnName="Products" />
+                <ScalarProperty Name="SalesPercent" ColumnName="SalesPercent" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SelectAllMonthsYears">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.SelectAllMonthsYear">
+              <MappingFragment StoreEntitySet="SelectAllMonthsYears">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Months" ColumnName="Months" />
+                <ScalarProperty Name="Y2011" ColumnName="Y2011" />
+                <ScalarProperty Name="Y2012" ColumnName="Y2012" />
+                <ScalarProperty Name="Y2013" ColumnName="Y2013" />
+                <ScalarProperty Name="Y2014" ColumnName="Y2014" />
+                <ScalarProperty Name="Y2015" ColumnName="Y2015" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TotalYearSales">
+            <EntityTypeMapping TypeName="SalesFiveYearsModel.TotalYearSale">
+              <MappingFragment StoreEntitySet="TotalYearSales">
+                <ScalarProperty Name="Years" ColumnName="Years" />
+                <ScalarProperty Name="TotalSales" ColumnName="TotalSales" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
